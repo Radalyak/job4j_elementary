@@ -1,4 +1,4 @@
-package ru.job4j.codition;
+package ru.job4j.condition;
 
 public class Liken {
     public static void main(String[] args) {
