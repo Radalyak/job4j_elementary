@@ -6,7 +6,6 @@ public class CheckPrimeNumber {
         for (int i = 2; i <= number - 1; i++) {
             if (number % i != 0) {
                 primeNumber = true;
-                break;
             } else {
                 primeNumber = false;
                 break;
