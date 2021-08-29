@@ -24,11 +24,11 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHas12Then4() {
+    public void whenArrayHas2ThenMinus1() {
         int[] data = {9, 5, 8, 1, 12};
-        int el = 12;
+        int el = 2;
         int result = FindLoop.indexOf(data, el);
-        int expected = 4;
+        int expected = -1;
         Assert.assertEquals(expected, result);
     }
 }
