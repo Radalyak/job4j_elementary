@@ -24,9 +24,9 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHas11Then4() {
-        int[] data = {9, 5, 8, 1, 11};
-        int el = 11;
+    public void whenArrayHas12Then4() {
+        int[] data = {9, 5, 8, 1, 12};
+        int el = 12;
         int result = FindLoop.indexOf(data, el);
         int expected = 4;
         Assert.assertEquals(expected, result);
