@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MatrixTest {
+
     @Test
     public void when5on5() {
         int size = 5;

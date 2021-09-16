@@ -6,6 +6,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
 public class CryptographyTest {
+
     @Test
     public void codeLengthGreat4() {
         String code = Cryptography.code("4556364607935616");

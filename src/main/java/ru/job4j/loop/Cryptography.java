@@ -1,8 +1,8 @@
 package ru.job4j.loop;
 
 public class Cryptography {
-    public static String code(String s) {
 
+    public static String code(String s) {
         if (s.isEmpty()) {
             return "empty";
         }
