@@ -3,7 +3,7 @@ package ru.job4j.array;
 public class SwitchArray {
 
     public static int[] swap(int[] array, int source, int dest) {
-        int swich = array[dest]; // swich вместо switch потому что он видит как оператор
+        int swich = array[dest];
         array[dest] = array[source];
         array[source] = swich;
         return array;
